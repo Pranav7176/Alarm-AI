@@ -11,6 +11,8 @@ engine = pyttsx3.init('sapi5')
 # declaring voices variable to change voice if required
 voices = engine.getProperty('voices')
 # print(voices[1].id)
+
+# giving voice for our progra
 engine.setProperty('voice', voices[0].id) #for male voice
 #engine.setProperty('voice', voices[0].id) #for female voice
 
